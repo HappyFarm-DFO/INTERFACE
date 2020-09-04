@@ -1,9 +1,11 @@
 #lips{
+    color: white;
     float: left;
     opacity: 1;
-
-    overflow:hidden;
+    overflow: hidden;
     height: 68px;
+    width: 450px;
+    font-size: 40px;
 }
 #lips:after{
     float: left;
@@ -13,16 +15,25 @@
 #lips:hover{
     float: left;
     opacity: 1;
-    height: 303px;
+    height: 203px;
     width: 100%;
     border-bottom: solid 1px black;
 
 }
 #lips_logo{
-    height:64px;
+    margin-top: 5px;
+    height:56px;
     margin-left: 10px;
     opacity: 1;
     z-index: 100;
+    float: left;
+}
+
+#lips_label{
+    float: left;
+    margin-left: 10px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    padding-top: 5px;
 }
 #lips_logo:before{
     height:64px;
@@ -31,11 +42,12 @@
     z-index: 100;
 }
 #lips_menu{
-    background: rgb(255, 0, 0);
+    background:rgb(5, 124, 21);
     width: calc( 100% - 10px );
-    height: 215px;
+    height: 115px;
     padding: 10px;
-    border-top: solid 1px black;
+
+    padding-top:80px;
 }
 
 .lips_menu_link{
@@ -43,7 +55,7 @@
     text-decoration: none;
 }
 .lips_menu_link:hover{
-  
+    background:rgb(3, 66, 11);
 
 }
 
@@ -81,6 +93,6 @@
 .lips_dir_button:hover{
 
 
-    background: rgb(150, 2, 2);
+    background:rgb(4, 100, 17);
 
 }
